@@ -1,0 +1,12 @@
+img{
+    width: 100px;
+    height: auto;
+    float: left;
+}
+h3,h1{
+    margin: 0;
+    text-align: top;
+}
+.unorder{
+    list-style-type:circle;
+}

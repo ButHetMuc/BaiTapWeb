@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            width: 400px;
+            height: auto;
+            margin-left: 500px;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Contact Information</legend>
+        <form action="">
+            <label for="firstname">firstname: </label>
+            <input type="text" name="ten" id="firstname" value="" size="20" maxlength="30" autofocus placeholder="họ và tên đệm"><br>
+            <label for="lastname">lastname: </label>
+            <input type="text" name="ten" id="lastname" value="" size="20" maxlength="30" autofocus ><br>
+            <label for="email">email:</label>
+            <input type="email" name="email" id="email" value="" size="20" maxlength="50" autofocus placeholder="example@gmail.com"><br>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Competition Question</legend>
+        <p>how tall is the Eiffel Tower in Paris,France ?</p>
+        <input type="radio" name="height1" value="584ft" > 584ft <br>
+        <input type="radio" name="height2" value="784ft"> 785ft <br>
+        <input type="radio" name="height3" value="984ft"> 984ft <br>
+        <input type="radio" name="height4" value="1184ft"> 1184ft <br>
+    </fieldset>
+    <fieldset>
+        <legend>Tiebreaker Question</legend>
+        <p>in 25 words or less , say why you would like to win $10,0000:</p>
+        <textarea name="why" id="tex1" cols="30" rows="10" placeholder="write on here"></textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Enter Competition</legend>
+        <input type="submit" value="Enter Competition">
+    </fieldset>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            width: 300px;
+            height: auto;
+        
+        }
+        h1,#input1,fieldset{  
+            margin-left :500px;
+            margin-right: auto;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Contact us</h1>
+    <fieldset>
+        <legend>your message:</legend>
+        <table>
+            <tr>
+                <td><label for="emailto">to</label></td>
+                <td><input type="email" name="txtemail" value="Butsieucapvippro@gmail.com" id="emailto" readonly autofocus></td>
+            </tr>
+            <tr>
+                <td><label for="emailfrom">your email</label></td>
+                <td><input type="email" name="txtemail" value="" id="emailfrom" size="20" maxlength="30" tabindex="1" autofocus></td>
+            </tr>
+            <tr>
+                <td><label for="txtmessage">message</label></td>
+                <td><textarea name="txtmessage" id="tex" cols="30" rows="10" placeholder="write on here..." tabindex="2"></textarea></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>how you found us:</legend>
+        <table>
+            <tr>
+                <td><label for="selectbrowser">how did you know us:</label></td>
+                <td><select name="browser" id="selectbrowser" size="2" multiple>
+                    <option value="google">google</option>
+                    <option value="facebook">facebook</option>
+                    <option value="bà hàng xóm">bà hàng xóm</option>
+                    <option value="may mắn">may mắn</option>    
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="check">Newsletter</label></td>
+                <td><input type="checkbox" value="Ensure this box is checked if you would like to receive email updates"> Ensure this box cc nhà mày</td>
+            </tr>
+        </table>
+    </fieldset>
+    <input id="input1" type="submit" value="send message">
+</body>
+</html>

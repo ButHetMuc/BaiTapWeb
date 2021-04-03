@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+    <h1>Travel reservation form </h1>
+    <h3>&#42 denotes mandotory</h3>
+    <label for="fullname"> Full name&#42</label><br>
+    <input type="text" id="fullname" name="name" size="20" maxlength="30" placeholder="FirstName LastName" autofocus><br>
+    <label for="emailladd">email address&#42</label><br>
+    <input type="email" id="emailladd" name="email" size="20" maxlength="50" placeholder="EMAIL_ADDRESS" autofocus><br>
+    <div>
+       <span>Select Tour  package&#42:</span> <br>
+         <select name="tour" id="selecttour" style="background-color: grey;">
+             <option value="goa">goa</option>
+             <option value="xyz">xyz</option>
+         </select>   
+    </div>
+    <label for="dateinput">Arrival date &#42:</label><br>
+    <input type="date" id="dateinput" name="date" dateFormat="d M y" placeholder="m/d/y" autofocus><br>
+    <label for="numberperson"> number of persons&#42:</label><br>
+    <input type="text" id="numberperson" name="number" placeholder="unknown_type" autofocus><br>
+    <div>
+        
+        <label for="check1">boarding:</label>
+        <input type="checkbox" name="wantsomething" id="check1"><br>
+        
+        <label for="check2">fooding:</label>
+        <input type="checkbox" name="food" id="check2"><br>
+        <label for="check3">sight seeing:</label>
+        
+        <input type="checkbox" name="sight" id="check3"><br>
+        <label for="text">  discout coupon code:</label><br>
+        <input type="text" name="text" id="text" size="30" maxlength="50" autofocus placeholder="unknown type"><br>
+    </div>
+    <input type="submit" value="complete reservation"><br>
+    <span>terms and conditions&#42</span><br>
+    <input type="radio" name="tich" id="radio1" value="i agree">
+    <label for="radio1"> i agree</label>
+    <input type="radio" name="tich" id="radio2" value="i disagree">
+    <label for="radio2"> i disagree</label>
+    </form>
+</body>
+</html>

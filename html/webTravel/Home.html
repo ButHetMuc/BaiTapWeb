@@ -5,17 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="StyleHome.css" type="text/css" rel="stylesheet" >
 </head>
 <body>
-    <div>
-        <div class="header">
-            <div id=logo></div>
-            <div id="menu"></div>
+    <div class=container>
+        <div class=header></div>
+        </div>
+        <div class=menu>
+            <nav class=nav1>
+                <a href="SanPham.html">TRANG CHỦ</a>
+                <a href="#">SẢN PHẨM</a>
+                <a href="#">KHUYẾN MÃI</a>
+                <a href="#">TIN TỨC</a>
+                <a href="#">LIÊN HỆ</a>
+                <div class="search">
+                    <input type="search" size=40 name=search id=search placeholder="Quý khách muốn tìm gì?">
+                </div>
+            </nav>
         </div>
         <div class="section">
-            <div class="article"></div>
-            <div class="aside"></div>
+            <div class="article1">
+                <input type="radio" name="bottom" id="bottom1" checked>
+                <input type="radio" name="bottom" id="bottom2">
+                <input type="radio" name="bottom" id="bottom3">
+
+                <div class="slide s1">
+                    <img src="hinh1.jpg.jpg" alt="hình ảnh">
+                </div>
+                <div class="slide">
+                    <img src="hinh2.png.png" alt="hình ảnh">
+                </div>
+                <div class="slide">
+                    <img src="hinh3.png.png" alt="hình ảnh">
+                </div>
+                <div class="navigation">
+                    <label for="bottom1" class="bar"></label>
+                    <label for="bottom2" class="bar"></label>
+                    <label for="bottom3" class="bar"></label>
+                </div>
+            </div>
+            <div class="article2"></div>
+            <div class="article3">
+                <div class="article31"></div>
+                <div class="article32"></div>
+            </div>
         </div>
-        <div class="footer"></div>
+        <div class=footer></div>
+        
+        
+
     </div>
+</body>
 </html>

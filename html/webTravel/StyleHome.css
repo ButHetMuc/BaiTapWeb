@@ -1,0 +1,136 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    width: 1200px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.header{
+    margin-left:auto;
+    margin-right: auto;
+    height:100px;
+    background-color: aqua;
+}
+
+.menu{
+    margin-left:auto;
+    margin-right: auto;
+    height:40px;
+    background-color: black;
+    width: 1200px;
+    position: relative;
+
+}
+.menu a{
+    margin-left:auto;
+    margin-right: auto;
+    text-decoration:none;
+    display: inline-block;
+    color:beige;
+    text-align: left;
+    height: 40px;
+    line-height: 40px;
+    padding:0px 15px;
+    
+}
+
+.search{
+    margin-left:auto;
+    margin-right: auto;
+    display: inline-block;
+    float:right;
+    height: 40px;
+    line-height: 40px;
+}
+.section{
+    margin-left:auto;
+    margin-right: auto;
+    width: 1200px;
+    height:1500px;
+    background-color: brown;
+}
+
+.article1{
+    width: 1200px;
+    height: 500px;
+    overflow: hidden;
+    position:absolute;
+    top:140px;
+    
+}
+
+.navigation{
+    position:absolute;
+    bottom: 10px;
+    left:50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px solid ;
+    margin: 10px;
+    cursor: pointer;
+}
+.bar:hover{
+    background-color:#fff ;
+    transition: 0.6%;
+    border: 2px solid red;
+}
+input[name="bottom"]{
+    position: absolute;
+    visibility:hidden;
+}
+.article1{
+    width: 1200px;
+    height: 500px;
+    
+}
+.slide{
+    width: 20%;
+    transition: 0,6%;
+}
+.slide img{
+    width: 1200px;
+    height: 500px;
+}
+#bottom1:checked ~ .s1{
+    margin-left: 0;
+}
+#bottom2:checked ~ .s1{
+    margin-left: -40%;
+}#bottom3:checked ~ .s1{
+    margin-left: -80%;
+}
+
+
+.article2{
+    width: 1200px;
+    height: 130px;
+    background-color:darkslategrey;
+}
+
+.article3{
+    width: 1200px;
+    background-color: darkgrey;
+}
+
+.article31{
+
+    background-color: darkgoldenrod;
+    width:20%;
+    float: left;
+    height: 500px;
+}
+
+.article32{
+    background-color: darkslateblue;
+    width: 80%;
+    height: 500px;
+    float:right;
+}

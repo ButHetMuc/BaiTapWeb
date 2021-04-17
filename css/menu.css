@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+}
+#menu{
+    width: 500px;
+    display: inline-block;
+}
+#menu ul{
+    background-color: bisque;
+}
+#menu li{
+    display: inline-block;
+    width: 70px;
+    height: 40px;
+}
+#menu a{
+    list-style-type: none;
+    text-decoration: none;
+    font: medium;
+
+}
+#nume{
+    width: 500px;
+    height: 100px;
+    background-color: aqua;
+    display: inline-block;
+}

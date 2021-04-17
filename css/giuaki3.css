@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.25em;  
+    margin: 0px;
+    padding:0px;
+}
+
+.container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.header{
+    height: 100px;
+    background-color: bisque;
+    position: relative;
+}
+.left{
+    width: 40%;
+    display: inline-block;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+.image img{
+    height: 100px;
+    width: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.slogan{
+    position: absolute;
+    top:0px;
+    left: 147px;
+    display: inline-block;
+}
+.right{
+    width: 59%;
+    position: absolute;
+    top: 0px;
+    right:0px;
+}
+.right .search{
+    display: inline-block;
+    position: absolute;
+    top:7px;
+    right: 7px;
+}
+.right .menu{
+    display: inline-block;
+    position: absolute;
+    top: 27px;
+    left: 27px;
+    
+}
+.menu ul{
+    display: inline-block;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    color:black;
+    padding:7px;
+    text-align: center;
+
+}
+.menu a:hover{
+    background:white
+}
+.content{
+    width: 100%;
+    position: relative;
+    background-color: beige;
+}
+.trai {
+    width: 67%;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+.phai{
+    display: inline-block;
+    width: 30%;
+    position: relative;
+    top: 50px;
+}
+.why{
+    width:100%;
+}
+hr{
+    border-bottom: 2px dotted black;
+}
+.article1{
+    width: 60%;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+.article2{
+    display: inline-block;
+    position: relative;
+    width: 34%;
+    
+}
+.article2 p{
+    display: inline-block;
+}
+
+.article .article1 .text{
+    width: 65%;
+}
+.form{
+    display: inline-block;
+}
+.phai img{
+    width:100%;
+    height: auto;
+}
+.phai a {
+    display: block;
+    text-align: right;
+}
+
+.footer{
+    position: relative;
+    background-color: bisque;
+    margin-top: 10px;
+    padding: 0px;
+}
+.footer p {
+    padding:0px;
+    margin: 0px;
+}
